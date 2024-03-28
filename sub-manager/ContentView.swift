@@ -1,61 +1,55 @@
-//
-//  ContentView.swift
-//  sub-manager
-//
-//  Created by Daniel Chudy on 3/27/24.
-//
-
 import SwiftUI
-import SwiftData
+import StoreKit
 
 struct ContentView: View {
-    @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
-
+    @StateObject var storeKit = StoreKitManager()
     var body: some View {
-        NavigationSplitView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
-                    } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
-                    }
-                }
-                .onDelete(perform: deleteItems)
-            }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
+        VStack {
+            ForEach(storeKit.storeProducts) {
+                product in
+                HStack {
+                    Text(product.displayName)
+                    Spacer()
+                    Button(action: {
+                        Task {
+                            try await storeKit.purchase(product)
+                        }
+                    }) {
+                        Text("Buy")
                     }
                 }
             }
-        } detail: {
-            Text("Select an item")
         }
+        .padding()
     }
+}
 
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(timestamp: Date())
-            modelContext.insert(newItem)
+struct CourseItem: View {
+    @ObservedObject var storeKit : StoreKitManager
+    @State var isPurchased: Bool = false
+    var product: Product
+    
+    var body: some View {
+        VStack {
+            if isPurchased {
+                Text(Image(systemName: "checkmark"))
+                    .bold()
+                    .padding(10)
+            } else {
+                Text(product.displayPrice)
+                    .padding(10)
+            }
         }
-    }
-
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            for index in offsets {
-                modelContext.delete(items[index])
+        .onChange(of: storeKit.purchasedCourses) { val, course in
+            Task {
+                isPurchased = (try? await storeKit.isPurchased(product)) ?? false
             }
         }
     }
 }
 
-#Preview {
-    ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+    }
 }
