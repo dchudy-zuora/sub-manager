@@ -5,6 +5,7 @@ struct ContentView: View {
     @StateObject var storeKit = StoreKitManager()
     var body: some View {
         VStack {
+            Text("Offerings")
             ForEach(storeKit.storeProducts) {
                 product in
                 HStack {
