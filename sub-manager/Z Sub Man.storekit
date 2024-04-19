@@ -1,5 +1,5 @@
 {
-  "identifier" : "75E4ECE4",
+  "identifier" : "DA1F72A8",
   "nonRenewingSubscriptions" : [
 
   ],
@@ -10,7 +10,7 @@
     "_applicationInternalID" : "6480137698",
     "_developerTeamID" : "7HTQL3UHY6",
     "_failTransactionsEnabled" : false,
-    "_lastSynchronizedDate" : 733335751.33067405,
+    "_lastSynchronizedDate" : 735240486.34774899,
     "_locale" : "en_US",
     "_storefront" : "USA",
     "_storeKitErrors" : [
@@ -62,6 +62,74 @@
     ]
   },
   "subscriptionGroups" : [
+    {
+      "id" : "21478581",
+      "localizations" : [
+
+      ],
+      "name" : "Luxury Services",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "29.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6499046345",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "daily test case",
+              "displayName" : "Daily Software",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "z.daily.software",
+          "recurringSubscriptionPeriod" : "P1W",
+          "referenceName" : "Daily Software",
+          "subscriptionGroupID" : "21478581",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    },
+    {
+      "id" : "21478462",
+      "localizations" : [
+
+      ],
+      "name" : "Premium Services",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "9.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6499046623",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "its just for a month",
+              "displayName" : "Monthly Software",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "z.monthly.software",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Monthly Software",
+          "subscriptionGroupID" : "21478462",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    },
     {
       "id" : "21469333",
       "localizations" : [
