@@ -1,14 +1,14 @@
+////
+////  StoreKitSub.swift
+////  sub-manager
+////
+////  Created by Daniel Chudy on 4/19/24.
+////
 //
-//  StoreKitSub.swift
-//  sub-manager
+//import Foundation
+//import UIKit
+//import StoreKit
 //
-//  Created by Daniel Chudy on 4/19/24.
-//
-
-import Foundation
-import UIKit
-import StoreKit
-
 //extension UIView {
 //    func openStoreKitManageSubscriptionPreferences() async {
 //        guard let windowScene = self.window?.windowScene else {

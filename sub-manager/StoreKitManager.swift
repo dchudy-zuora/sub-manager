@@ -24,13 +24,11 @@ class StoreKitManager: ObservableObject {
     
     init() {
         //check the path for the plist
-        print("1")
         if let plistPath = Bundle.main.path(forResource: "PropertyList", ofType: "plist"),
            //get the list of products
            let plist = FileManager.default.contents(atPath: plistPath) {
             productDict = (try? PropertyListSerialization.propertyList(from: plist, format: nil) as? [String : String]) ?? [:]
         } else {
-            print("not found")
             productDict = [:]
         }
         //Start a transaction listener as close to the app launch as possible so you don't miss any transaction
@@ -126,11 +124,14 @@ class StoreKitManager: ObservableObject {
     //    // call the product purchase and returns an optional transaction
     func purchase(_ product: Product) async throws -> Transaction? {
         //make a purchase request - optional parameters available
+        print("in purchase")
         let result = try await product.purchase()
 
         // check the results
+        print(result)
         switch result {
         case .success(let verificationResult):
+            print("success")
             //Transaction will be verified for automatically using JWT(jwsRepresentation) - we can check the result
             let transaction = try checkVerified(verificationResult)
 
@@ -142,6 +143,7 @@ class StoreKitManager: ObservableObject {
 
             return transaction
         case .userCancelled, .pending:
+            print("User Cancelled!")
             return nil
         default:
             return nil

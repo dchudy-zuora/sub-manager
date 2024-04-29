@@ -1,19 +1,10 @@
 import SwiftUI
 import StoreKit
-
-//func showSubscriptionManagement() {
-//    Task {
-//        do {
-//            try await StoreKit.AppStore.showManageSubscriptions(in: )
-//        } catch {
-//            // Handle error
-//            print("Error presenting subscription management view: \(error)")
-//        }
-//    }
-//}
+import UIKit
 
 struct ContentView: View {
     @StateObject var storeKit = StoreKitManager()
+    
     var body: some View {
         VStack {
             Text("Offerings")
@@ -33,6 +24,14 @@ struct ContentView: View {
                 }
             }
             Divider()
+            Button(action: {
+                Task {
+                    self.openStoreKitManageSubscriptionPreferences()
+                }
+            }) {
+                Text("Manage Subscriptions")
+            }
+            Divider()
             Button("Restore Purchases", action: {
                 Task {
                     //This call displays a system prompt that asks users to authenticate with their App Store credentials.
@@ -49,7 +48,7 @@ struct ContentView: View {
         }
         .padding()
         
-        
+    
     }
 }
 
