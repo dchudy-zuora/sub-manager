@@ -1,5 +1,5 @@
 {
-  "identifier" : "DA1F72A8",
+  "identifier" : "4BC7D2C4",
   "nonRenewingSubscriptions" : [
 
   ],
@@ -8,10 +8,16 @@
   ],
   "settings" : {
     "_applicationInternalID" : "6480137698",
+    "_askToBuyEnabled" : false,
+    "_billingGracePeriodEnabled" : true,
+    "_compatibilityTimeRate" : {
+      "3" : 6
+    },
     "_developerTeamID" : "7HTQL3UHY6",
     "_failTransactionsEnabled" : false,
-    "_lastSynchronizedDate" : 735240486.34774899,
+    "_lastSynchronizedDate" : 736105051.636675,
     "_locale" : "en_US",
+    "_renewalBillingIssuesEnabled" : true,
     "_storefront" : "USA",
     "_storeKitErrors" : [
       {
@@ -59,7 +65,8 @@
         "enabled" : false,
         "name" : "Offer Code Redeem Sheet"
       }
-    ]
+    ],
+    "_timeRate" : 1003
   },
   "subscriptionGroups" : [
     {
@@ -91,6 +98,31 @@
           "productID" : "z.daily.software",
           "recurringSubscriptionPeriod" : "P1W",
           "referenceName" : "Daily Software",
+          "subscriptionGroupID" : "21478581",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "6499543451",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "its just fa bronze daily sub",
+              "displayName" : "Bronze Daily Software",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "z.daily.software.bronze",
+          "recurringSubscriptionPeriod" : "P1W",
+          "referenceName" : "Daily Software Bronze",
           "subscriptionGroupID" : "21478581",
           "type" : "RecurringSubscription"
         }
