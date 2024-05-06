@@ -1,23 +1,31 @@
 {
-  "identifier" : "4BC7D2C4",
+  "identifier" : "F4FA7A83",
   "nonRenewingSubscriptions" : [
 
   ],
   "products" : [
-
+    {
+      "displayPrice" : "49.99",
+      "familyShareable" : false,
+      "internalID" : "6502292663",
+      "localizations" : [
+        {
+          "description" : "just a one time consumable",
+          "displayName" : "One Off Purchase",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "w1tr1msr5cnj3lweonwzx8aq1azt",
+      "referenceName" : "One Off Purchase",
+      "type" : "Consumable"
+    }
   ],
   "settings" : {
     "_applicationInternalID" : "6480137698",
-    "_askToBuyEnabled" : false,
-    "_billingGracePeriodEnabled" : true,
-    "_compatibilityTimeRate" : {
-      "3" : 6
-    },
     "_developerTeamID" : "7HTQL3UHY6",
     "_failTransactionsEnabled" : false,
-    "_lastSynchronizedDate" : 736105051.636675,
+    "_lastSynchronizedDate" : 736700112.64360595,
     "_locale" : "en_US",
-    "_renewalBillingIssuesEnabled" : true,
     "_storefront" : "USA",
     "_storeKitErrors" : [
       {
@@ -65,8 +73,7 @@
         "enabled" : false,
         "name" : "Offer Code Redeem Sheet"
       }
-    ],
-    "_timeRate" : 1003
+    ]
   },
   "subscriptionGroups" : [
     {
