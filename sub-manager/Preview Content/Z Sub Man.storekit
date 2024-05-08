@@ -1,5 +1,5 @@
 {
-  "identifier" : "F4FA7A83",
+  "identifier" : "A2EBE667",
   "nonRenewingSubscriptions" : [
 
   ],
@@ -24,7 +24,7 @@
     "_applicationInternalID" : "6480137698",
     "_developerTeamID" : "7HTQL3UHY6",
     "_failTransactionsEnabled" : false,
-    "_lastSynchronizedDate" : 736700112.64360595,
+    "_lastSynchronizedDate" : 736874524.94445097,
     "_locale" : "en_US",
     "_storefront" : "USA",
     "_storeKitErrors" : [
@@ -76,6 +76,65 @@
     ]
   },
   "subscriptionGroups" : [
+    {
+      "id" : "21484860",
+      "localizations" : [
+
+      ],
+      "name" : "Baseline Services",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "0.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6502405274",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "standard subscription",
+              "displayName" : "Zuora Base Line Services",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "z.service.baseline",
+          "recurringSubscriptionPeriod" : "P1W",
+          "referenceName" : "Zuora Base Line Services",
+          "subscriptionGroupID" : "21484860",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "4.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "6502405230",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "slightly enhanced subscription",
+              "displayName" : "Zuora Base Line Services (Adv)",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "z.service.baseline.advanced",
+          "recurringSubscriptionPeriod" : "P1W",
+          "referenceName" : "Zuora Base Line Services (Advanced)",
+          "subscriptionGroupID" : "21484860",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    },
     {
       "id" : "21478581",
       "localizations" : [

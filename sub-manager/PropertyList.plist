@@ -4,13 +4,9 @@
 <dict>
 	<key>one.off</key>
 	<string>w1tr1msr5cnj3lweonwzx8aq1azt</string>
-	<key>daily.bronze</key>
-	<string>z.daily.software.bronze</string>
-	<key>daily</key>
-	<string>z.daily.software</string>
-	<key>monthly</key>
-	<string>z.monthly.software</string>
-	<key>yearly</key>
-	<string>z.yearly.software</string>
+	<key>baseline</key>
+	<string>z.service.baseline</string>
+	<key>baseline.advanced</key>
+	<string>z.service.baseline.advanced</string>
 </dict>
 </plist>
