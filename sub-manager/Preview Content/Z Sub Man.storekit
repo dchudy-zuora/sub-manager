@@ -128,7 +128,7 @@
             }
           ],
           "productID" : "z.service.baseline.advanced",
-          "recurringSubscriptionPeriod" : "P1W",
+          "recurringSubscriptionPeriod" : "P1M",
           "referenceName" : "Zuora Base Line Services (Advanced)",
           "subscriptionGroupID" : "21484860",
           "type" : "RecurringSubscription"
