@@ -8,5 +8,9 @@
 	<string>z.service.baseline</string>
 	<key>baseline.advanced</key>
 	<string>z.service.baseline.advanced</string>
+	<key>Daily Software</key>
+	<string>z.daily.software</string>
+	<key>Daily Software (Bronze)</key>
+	<string>z.daily.software.bronze</string>
 </dict>
 </plist>
