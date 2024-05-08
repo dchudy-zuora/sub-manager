@@ -51,7 +51,7 @@
          </BuildableReference>
       </BuildableProductRunnable>
       <StoreKitConfigurationFileReference
-         identifier = "../../sub-manager/Preview Content/Z Sub Man.storekit">
+         identifier = "../../sub-manager/Z Sub Man.storekit">
       </StoreKitConfigurationFileReference>
    </LaunchAction>
    <ProfileAction

@@ -1,5 +1,5 @@
 {
-  "identifier" : "A2EBE667",
+  "identifier" : "FC7C81AB",
   "nonRenewingSubscriptions" : [
 
   ],
@@ -24,7 +24,7 @@
     "_applicationInternalID" : "6480137698",
     "_developerTeamID" : "7HTQL3UHY6",
     "_failTransactionsEnabled" : false,
-    "_lastSynchronizedDate" : 736874524.94445097,
+    "_lastSynchronizedDate" : 736878184.54658699,
     "_locale" : "en_US",
     "_storefront" : "USA",
     "_storeKitErrors" : [
@@ -81,7 +81,7 @@
       "localizations" : [
 
       ],
-      "name" : "Baseline Services",
+      "name" : "Baseline Services V2",
       "subscriptions" : [
         {
           "adHocOffers" : [
@@ -92,7 +92,7 @@
           ],
           "displayPrice" : "0.99",
           "familyShareable" : false,
-          "groupNumber" : 1,
+          "groupNumber" : 2,
           "internalID" : "6502405274",
           "introductoryOffer" : null,
           "localizations" : [
@@ -117,7 +117,7 @@
           ],
           "displayPrice" : "4.99",
           "familyShareable" : false,
-          "groupNumber" : 2,
+          "groupNumber" : 1,
           "internalID" : "6502405230",
           "introductoryOffer" : null,
           "localizations" : [
