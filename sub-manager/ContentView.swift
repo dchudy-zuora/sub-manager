@@ -7,7 +7,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Text("Offerings")
+            Text("Subscriptions")
             Divider()
             ForEach(storeKit.storeProducts) {
                 product in

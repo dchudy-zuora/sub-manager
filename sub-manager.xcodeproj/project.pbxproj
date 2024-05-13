@@ -28,7 +28,7 @@
 		55A14E332BB4DB30003D2B97 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		55A14E352BB4DB31003D2B97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55A14E382BB4DB31003D2B97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		55D02FA72BEBDE6500503E32 /* Z Sub Man.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; name = "Z Sub Man.storekit"; path = "sub-manager/Z Sub Man.storekit"; sourceTree = SOURCE_ROOT; };
+		55D02FA82BF2B94600503E32 /* Z Sub Man.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Z Sub Man.storekit"; sourceTree = "<group>"; };
 		55DCA7462BDFFEFE004478AD /* openStoreKitManageSubscriptionPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openStoreKitManageSubscriptionPreferences.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,8 +68,8 @@
 				553204F82BB5D06900A7E5EC /* StoreKitManager.swift */,
 				55A14E332BB4DB30003D2B97 /* Item.swift */,
 				554CBDC22BD2E71E00465713 /* StoreKitSub.swift */,
-				55D02FA72BEBDE6500503E32 /* Z Sub Man.storekit */,
 				55A14E352BB4DB31003D2B97 /* Assets.xcassets */,
+				55D02FA82BF2B94600503E32 /* Z Sub Man.storekit */,
 				553204FC2BB5D11D00A7E5EC /* PropertyList.plist */,
 				55A14E372BB4DB31003D2B97 /* Preview Content */,
 			);

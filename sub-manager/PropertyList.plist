@@ -2,15 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>one.off</key>
-	<string>w1tr1msr5cnj3lweonwzx8aq1azt</string>
-	<key>baseline</key>
-	<string>z.service.baseline</string>
-	<key>baseline.advanced</key>
-	<string>z.service.baseline.advanced</string>
-	<key>Daily Software</key>
-	<string>z.daily.software</string>
-	<key>Daily Software (Bronze)</key>
-	<string>z.daily.software.bronze</string>
+	<key>Bronze Sub</key>
+	<string>bro.sub</string>
+	<key>Gold Sub</key>
+	<string>gol.sub</string>
+	<key>Advanced Subscription</key>
+	<string>adv.sub</string>
+	<key>Basic Subscription</key>
+	<string>basic.sub</string>
 </dict>
 </plist>

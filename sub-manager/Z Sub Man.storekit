@@ -1,5 +1,5 @@
 {
-  "identifier" : "FC7C81AB",
+  "identifier" : "2CC19B98",
   "nonRenewingSubscriptions" : [
 
   ],
@@ -24,7 +24,7 @@
     "_applicationInternalID" : "6480137698",
     "_developerTeamID" : "7HTQL3UHY6",
     "_failTransactionsEnabled" : false,
-    "_lastSynchronizedDate" : 736878184.54658699,
+    "_lastSynchronizedDate" : 737327433.88894606,
     "_locale" : "en_US",
     "_storefront" : "USA",
     "_storeKitErrors" : [
@@ -131,6 +131,124 @@
           "recurringSubscriptionPeriod" : "P1M",
           "referenceName" : "Zuora Base Line Services (Advanced)",
           "subscriptionGroupID" : "21484860",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    },
+    {
+      "id" : "21486881",
+      "localizations" : [
+
+      ],
+      "name" : "Demo Group",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "3.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "6502616872",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "advanced",
+              "displayName" : "Advanced Subscription",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "adv.sub",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Advanced Subscription",
+          "subscriptionGroupID" : "21486881",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6502616769",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "basic",
+              "displayName" : "Basic Subscription",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "basic.sub",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Basic Subscription",
+          "subscriptionGroupID" : "21486881",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    },
+    {
+      "id" : "21486981",
+      "localizations" : [
+
+      ],
+      "name" : "Demo Group 2",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "9.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "6502616929",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "bronze",
+              "displayName" : "Bronze Sub",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "bro.sub",
+          "recurringSubscriptionPeriod" : "P1W",
+          "referenceName" : "Bronze Sub",
+          "subscriptionGroupID" : "21486981",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "19.99",
+          "familyShareable" : false,
+          "groupNumber" : 2,
+          "internalID" : "6502616911",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "gold",
+              "displayName" : "Gold Subscription",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "gol.sub",
+          "recurringSubscriptionPeriod" : "P1W",
+          "referenceName" : "Gold Sub",
+          "subscriptionGroupID" : "21486981",
           "type" : "RecurringSubscription"
         }
       ]
